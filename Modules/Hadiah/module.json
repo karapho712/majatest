@@ -1,0 +1,13 @@
+{
+    "name": "Hadiah",
+    "alias": "hadiah",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Hadiah\\Providers\\HadiahServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

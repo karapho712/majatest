@@ -1,0 +1,9 @@
+{
+    "Admin": true,
+    "Layout": true,
+    "User": true,
+    "Hadiah": true,
+    "Barang": true,
+    "Transaksi": true,
+    "BeliBarang": true
+}

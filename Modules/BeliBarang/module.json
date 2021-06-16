@@ -1,0 +1,13 @@
+{
+    "name": "BeliBarang",
+    "alias": "belibarang",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\BeliBarang\\Providers\\BeliBarangServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
