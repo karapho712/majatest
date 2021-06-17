@@ -14,6 +14,13 @@ class UserController extends Controller
      * Display a listing of the resource.
      * @return Response
      */
+
+    public function __construct()
+    {
+        $this->middleware('auth:api', ['except' => ['index', 'create', 'store', 'show', 'edit', 'update','destroy']]);
+    }
+
+     
     public function index()
     {
         return view('user::index');
