@@ -1,7 +1,7 @@
 @extends('layout::layouts.base')
 
 @section('main-title', 'Cek Point')
-@section('sub-title', 'Point Saat Ini '. $pointuser->point .'pt')
+@section('sub-title', 'Point Saat Ini '. $pointuser->point .' point')
 
 @section('button-ext')
 @if(Session::has('message'))

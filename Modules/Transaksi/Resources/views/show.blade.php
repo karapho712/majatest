@@ -1,7 +1,7 @@
 @extends('layout::layouts.base')
 
 @section('main-title', 'List Transaksi')
-@section('sub-title', 'List Transaksi - '.$data->id)
+@section('sub-title', 'List Transaksi ID - '.$data->id)
 
 @section('button-ext')
 @if(Session::has('message'))

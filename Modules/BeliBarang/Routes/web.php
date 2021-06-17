@@ -11,7 +11,7 @@
 |
 */
 
-Route::prefix('belibarang')->group(function() {
+Route::middleware(['auth'])->prefix('belibarang')->group(function() {
     Route::get('/', 'BeliBarangController@index');
     Route::get('/cekpoint', 'BeliBarangController@cekpoint');
 });
